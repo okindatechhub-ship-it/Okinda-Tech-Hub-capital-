@@ -1,0 +1,6 @@
+{
+  "name": "Capital Home Residence",
+  "description": "Capital Home Residence - Live. Connect. Buy. Sell. Residence community platform with room vacancy management, student marketplace, social network, and private messaging.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

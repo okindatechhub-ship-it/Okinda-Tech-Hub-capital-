@@ -1,0 +1,17 @@
+{
+  "short_name": "Capital Home",
+  "name": "Capital Home Residence",
+  "description": "Live. Connect. Buy. Sell. — Capital Home Residence official application.",
+  "icons": [
+    {
+      "src": "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+      "sizes": "192x192 512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#F7F8FA",
+  "theme_color": "#102A43",
+  "display": "standalone",
+  "orientation": "portrait"
+}

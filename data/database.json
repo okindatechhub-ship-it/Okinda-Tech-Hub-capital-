@@ -1,0 +1,2484 @@
+{
+  "users": [
+    {
+      "id": "user-admin-okinda",
+      "full_name": "Okinda Tech Hub (Admin)",
+      "phone": "+254700003078",
+      "email": "okindatechhub@gmail.com",
+      "password_hash": "$2b$10$EeHrRHuyzwo2dEhflB8A2OzJKAJh5G3COX8hP6/NIsxXAGPmhLq1O",
+      "profile_photo": "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+      "bio": "Capital Home Residence Chief Administrator. Managing room vacancies, seller approvals, and campus safety.",
+      "location": "Capital Home Office, Block A",
+      "role": "admin",
+      "is_resident": false,
+      "resident_room_id": null,
+      "resident_room_number": null,
+      "status": "active",
+      "created_at": "2026-09-27T10:47:01.548Z",
+      "updated_at": "2026-09-27T10:47:01.548Z"
+    },
+    {
+      "id": "user-1790506045435-7cry",
+      "full_name": "Faith Chebet",
+      "phone": "0712345678",
+      "email": "faith.chebet@student.ac.ke",
+      "password_hash": "$2b$10$CSVq6f763s0NiNDGKqT00uX5YOp57rfm7zYV181tFTqEXJ1CsqxFS",
+      "profile_photo": "/src/assets/images/room_interior_capital_1790501134217.jpg",
+      "bio": "Resident at Capital Home Residence (Old Room 01).",
+      "location": "Capital Home Residence, Old Room 01",
+      "role": "resident",
+      "is_resident": true,
+      "resident_room_id": "old-01",
+      "resident_room_number": "Old Room 01",
+      "status": "active",
+      "created_at": "2026-09-27T10:47:25.435Z",
+      "updated_at": "2026-09-27T10:47:25.435Z"
+    }
+  ],
+  "advertiser_applications": [],
+  "advertiser_payment_methods": [],
+  "categories": [
+    {
+      "id": "cat-electronics",
+      "name": "Electronics",
+      "description": "Gadgets, chargers, audio & kitchen gear",
+      "icon": "Tv",
+      "status": "active"
+    },
+    {
+      "id": "cat-computers",
+      "name": "Computers & Laptops",
+      "description": "HP, Dell, Lenovo, MacBooks & PC accessories",
+      "icon": "Laptop",
+      "status": "active"
+    },
+    {
+      "id": "cat-phones",
+      "name": "Phones & Tablets",
+      "description": "Smartphones, iPhones, tablets and accessories",
+      "icon": "Smartphone",
+      "status": "active"
+    },
+    {
+      "id": "cat-furniture",
+      "name": "Furniture & Decor",
+      "description": "Desks, chairs, mattresses, wardrobes & lamps",
+      "icon": "Armchair",
+      "status": "active"
+    },
+    {
+      "id": "cat-books",
+      "name": "Books & Stationery",
+      "description": "Academic textbooks, novels and stationery",
+      "icon": "BookOpen",
+      "status": "active"
+    },
+    {
+      "id": "cat-household",
+      "name": "Household Items",
+      "description": "Kettles, heaters, utensils, buckets, curtains",
+      "icon": "Home",
+      "status": "active"
+    },
+    {
+      "id": "cat-clothing",
+      "name": "Clothing & Shoes",
+      "description": "Fashion, hoodies, shoes and apparel",
+      "icon": "Shirt",
+      "status": "active"
+    },
+    {
+      "id": "cat-services",
+      "name": "Student Services",
+      "description": "Printing, laundry, repair & typing services",
+      "icon": "Wrench",
+      "status": "active"
+    }
+  ],
+  "products": [],
+  "rooms": [
+    {
+      "id": "old-01",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 01",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "OCCUPIED",
+      "current_occupant_id": "user-1790506045435-7cry",
+      "occupant_name": "Faith Chebet",
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:25.435Z"
+    },
+    {
+      "id": "old-02",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 02",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-03",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 03",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-04",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 04",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-05",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 05",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-06",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 06",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-07",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 07",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-08",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 08",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-09",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 09",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-10",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 10",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-11",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 11",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-12",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 12",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-13",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 13",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-14",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 14",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-15",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 15",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-16",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 16",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-17",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 17",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-18",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 18",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-19",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 19",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-20",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 20",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-21",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 21",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-22",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 22",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-23",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 23",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-24",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 24",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-25",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 25",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-26",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 26",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-27",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 27",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-28",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 28",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-29",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 29",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-30",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 30",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-31",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 31",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-32",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 32",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-33",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 33",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-34",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 34",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-35",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 35",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-36",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 36",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-37",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 37",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-38",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 38",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-39",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 39",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-40",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 40",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-41",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 41",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-42",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 42",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-43",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 43",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-44",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 44",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-45",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 45",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-46",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 46",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-47",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 47",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-48",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 48",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-49",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 49",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-50",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 50",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-51",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 51",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-52",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 52",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-53",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 53",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "old-54",
+      "residence_id": "res-capital-home",
+      "room_number": "Old Room 54",
+      "room_type": "Old Room",
+      "price": 15000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Spacious standard student room in the classic wing of Capital Home Residence. Features a dedicated study desk, heavy-duty wardrobe, quiet corridor location, and access to clean shared sanitation facilities with 24/7 borehole water and backup solar lighting.",
+      "amenities": [
+        "Study Desk & Chair",
+        "Built-in Wardrobe",
+        "24/7 Borehole Water",
+        "Solar Backup Power",
+        "Perimeter Security & CCTV",
+        "High-Speed Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/room_interior_capital_1790501134217.jpg",
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-01",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 01",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-02",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 02",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-03",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 03",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-04",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 04",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-05",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 05",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-06",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 06",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-07",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 07",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-08",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 08",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-09",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 09",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-10",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 10",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-11",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 11",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-12",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 12",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-13",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 13",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-14",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 14",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-15",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 15",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-16",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 16",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-17",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 17",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-18",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 18",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-19",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 19",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-20",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 20",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-21",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 21",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-22",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 22",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-23",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 23",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-24",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 24",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-25",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 25",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-26",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 26",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-27",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 27",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    },
+    {
+      "id": "new-28",
+      "residence_id": "res-capital-home",
+      "room_number": "New Room 28",
+      "room_type": "New Room",
+      "price": 25000,
+      "billing_period": "per semester",
+      "status": "AVAILABLE",
+      "current_occupant_id": null,
+      "occupant_name": null,
+      "move_out_date": null,
+      "availability_date": "Immediate",
+      "description": "Executive self-contained room in the newly constructed modern block of Capital Home Residence. Includes an en-suite hot-water shower, private kitchenette counter, tiled modern flooring, acoustic soundproof windows, and private balcony space.",
+      "amenities": [
+        "En-suite Tiled Bathroom",
+        "Instant Hot Water Shower",
+        "Kitchenette Counter & Sink",
+        "Private Balcony",
+        "Modern Ceramic Tiles",
+        "Study Station with Book Rack",
+        "24/7 Monitored CCTV Security",
+        "Ultra-Fast Optical Fiber Wi-Fi"
+      ],
+      "images": [
+        "/src/assets/images/hero_capital_residence_1790501121492.jpg",
+        "/src/assets/images/room_interior_capital_1790501134217.jpg"
+      ],
+      "created_at": "2026-09-27T10:47:01.650Z",
+      "updated_at": "2026-09-27T10:47:01.650Z"
+    }
+  ],
+  "room_requests": [],
+  "vacancy_notices": [],
+  "posts": [],
+  "comments": [],
+  "conversations": [],
+  "messages": [],
+  "saved_items": [],
+  "notifications": [
+    {
+      "id": "notif-1790506045437-i9jie",
+      "user_id": "user-admin-okinda",
+      "type": "new_resident",
+      "title": "New Resident in Residence!",
+      "message": "Faith Chebet has moved into Old Room 01. Say hello!",
+      "link": "/residence",
+      "read_at": null,
+      "created_at": "2026-09-27T10:47:25.437Z"
+    }
+  ],
+  "reports": [],
+  "orders": [],
+  "settings": {
+    "residence_name": "Capital Home Residence",
+    "tagline": "Live. Connect. Buy. Sell.",
+    "old_room_price": 15000,
+    "new_room_price": 25000,
+    "contact_phone": "+254 700 003 078",
+    "contact_email": "okindatechhub@gmail.com",
+    "address": "Maseno, Along Kisumu - Busia Highway, Opposite Campus Gate B",
+    "advertisement_guidelines": "Only approved student/local advertisers may list products. Payment details must be verified by the buyer directly with the seller before cash or mobile transfer. No advance payments for uninspected goods."
+  }
+}
